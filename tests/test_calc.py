@@ -11,3 +11,7 @@ def test_sub():
 
 def test_mul():
     assert calc.mul(4, 3) == 12
+
+
+def test_div():
+    assert calc.div(6, 2) == 3.0
